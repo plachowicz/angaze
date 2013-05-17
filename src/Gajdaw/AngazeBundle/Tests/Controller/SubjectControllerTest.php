@@ -20,7 +20,7 @@ class SubjectControllerTest extends WebTestCase
         $this->assertEquals(1, $crawler->filter('td:contains("Analiza matematyczna")')->count(), 'Missing element td:contains("Analiza matematyczna")');
         $this->assertEquals(1, $crawler->filter('td:contains("Logika algorytmicza")')->count(), 'Missing element td:contains("Logika algorytmicza")');
         $this->assertEquals(1, $crawler->filter('td:contains("Sieci")')->count(), 'Missing element td:contains("Sieci")');
-
+        $this->assertEquals(1, $crawler->filter('td:contains("Bazy danych")')->count(), 'Missing element td:contains("Bazy danych")');
 
 
 
