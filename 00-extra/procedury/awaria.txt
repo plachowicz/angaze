@@ -1,0 +1,6 @@
+PROCEDURA #2: Awaria
+
+git checkout master
+git reset --hard HEAD@{100}
+git pull
+
