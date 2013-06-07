@@ -1,0 +1,7 @@
+WIZUALIZACJA REPOZYTORIUM
+
+gitk --all &
+
+
+Shift-F5 od¶wie¿
+
