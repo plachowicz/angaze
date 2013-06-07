@@ -1,0 +1,4 @@
+WIZUALIZACJA REPOZYTORIUM
+
+gitk --all &
+
