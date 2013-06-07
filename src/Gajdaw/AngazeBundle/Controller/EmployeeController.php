@@ -115,7 +115,6 @@ class EmployeeController extends Controller
     public function editAction($id)
     {
         $em = $this->getDoctrine()->getManager();
-
         $entity = $em->getRepository('GajdawAngazeBundle:Employee')->find($id);
 
         if (!$entity) {
@@ -142,7 +141,6 @@ class EmployeeController extends Controller
     public function updateAction(Request $request, $id)
     {
         $em = $this->getDoctrine()->getManager();
-
         $entity = $em->getRepository('GajdawAngazeBundle:Employee')->find($id);
 
         if (!$entity) {
