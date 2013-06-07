@@ -15,7 +15,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 class Course
 {
     /**
-     * @var integer
+     * @var  integer
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
@@ -24,7 +24,7 @@ class Course
     private $id;
 
     /**
-     * @var string
+     * @var  string
      *
      * @ORM\Column(name="name", type="string", length=255)
      */
