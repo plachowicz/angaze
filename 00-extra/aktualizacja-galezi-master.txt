@@ -7,6 +7,12 @@ git status
 komunikat powinien zawierać informację o tym,
 że gałąź master może być przewinięta Fast Forward
 
+git s
+
+zwraca informację [Behind: xxx]
+
+
+
 Jeśli nie to błąd wymagający konsultacji.
 
 git pull
