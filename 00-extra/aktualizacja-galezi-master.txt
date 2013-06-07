@@ -1,0 +1,12 @@
+PROCEDURA #1: Aktualizacja gałęzi master
+
+git checkout master
+git fetch
+git status
+
+komunikat powinien zawierać informację o tym,
+że gałąź master może być przewinięta Fast Forward
+
+Jeśli nie to błąd wymagający konsultacji.
+
+git pull
