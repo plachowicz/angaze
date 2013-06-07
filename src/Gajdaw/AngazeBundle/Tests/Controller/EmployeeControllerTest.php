@@ -22,7 +22,6 @@ class EmployeeControllerTest extends WebTestCase
         foreach ($crawler as $domElement) {
             $rekordy[] = $domElement->nodeValue;
         }
-
         //wyniki, które znamy
         //na podstawie pliku yaml
         $expected = array(

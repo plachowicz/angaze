@@ -11,10 +11,10 @@ class EmployeeType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('name')
-            ->add('surname')
-            ->add('position')
-            ->add('room');
+            ->add('name') //imie
+            ->add('surname') //nazwisko
+            ->add('position') //stanowisko
+            ->add('room'); //pokoj
         ;
     }
 
