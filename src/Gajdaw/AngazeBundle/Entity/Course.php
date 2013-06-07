@@ -15,7 +15,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 class Course
 {
     /**
-     * @var integer
+     * @var  integer
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
